@@ -7,9 +7,8 @@ int main()
     int argint;
     int frstArg = scanf("%d", &argint);
     
-    if (argint >= 10)
-    {
-    printf("condition is met\n");
+    if (argint >= 10){
+        printf("condition is met\n");
     }
     else{
         printf("condition is NOT met\n");
